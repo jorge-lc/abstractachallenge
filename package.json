@@ -1,0 +1,21 @@
+{
+  "name": "abstracta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/SearchTest.js --timeout 120000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^113.0.0",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.9.2"
+  }
+}
